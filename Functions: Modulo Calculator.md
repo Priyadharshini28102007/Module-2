@@ -12,8 +12,18 @@ To write a Python program that defines a function which accepts two values and r
 
 ## 🧾 Program
 
-Add code Here
+def result(a, b):
+    modulo_value = a % b
+    return modulo_value
+
+a=int(input())
+b=int(input())
+print("modulo is", result(a, b))
 
 ## Output
 
+<img width="567" height="317" alt="438270022-f983df10-9b49-472b-9611-5822c678086d" src="https://github.com/user-attachments/assets/e72ccf8e-acdb-4b58-82e5-e616c3156545" />
+
 ## Result
+
+Thus,the Python program that defines a function which accepts two values and returns their modulo using the % operator is created successfully.
